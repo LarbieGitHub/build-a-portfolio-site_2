@@ -1,0 +1,138 @@
+*{
+  -web-box-sizing: border-box;
+  -moz-box-string: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  
+  }
+
+  /* media rule */
+  @media all and (min-width: 320px) and (max-width: 1024px) {
+    .headerOne-class, .headerTwo-class, .upper-section,
+    .sub-section, .article-class, .section-class, 
+    .aside-class, .footer-class {
+      float: none;
+      width: auto;
+
+    }
+  }
+
+/* header section */
+.header-class {
+  width: 100%;
+  float: left;
+  display: flex;
+ }
+
+.headerOne-class, .headerTwo-class {
+  margin: 2%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+.headerOne-class {
+  float: left;
+  width: 50%;
+}
+
+.headerTwo-class {
+  float: left;
+  width: 50%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/* upper section */
+.upper-class {
+  float: left;
+  width: 100%;
+
+}
+
+.upper-section {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+} 
+
+/* sub header */
+.subheader-class {
+  float: left;
+  width: 100%;
+}
+
+.sub-section {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* bottom section */
+.lower-section {
+  float: left;
+  width: 100%;
+  display: flex;  
+
+}
+
+.article-class, .section-class, .aside-class {
+  float: left;
+  text-align: center;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.article-class {
+  float: left;
+  width: 33.33%;
+}
+
+.section-class {
+  float: left;
+  width: 33.33%;
+}
+
+.aside-class  {
+  float: left;
+  width: 33.33%;
+}
+
+/* footer section */
+.footer-section {
+  float: left;
+  width: 100%;
+}
+
+.footer-class {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+img {
+
+  vertical-align: middle;
+
+}
